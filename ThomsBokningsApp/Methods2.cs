@@ -16,7 +16,7 @@ namespace ThomsBokningsApp
         {
             Console.WriteLine("Välkommen till adminsidan, där du kan lägga till en båt.");
             Console.WriteLine("OBS! Du kan endast lägga till en båt åt gången.");
-            Console.WriteLine("Båtnummer: (Nr 1 & 2 finns redan)");
+            Console.WriteLine("Ange båtnummer: (Nr 1 & 2 finns redan)");
             var boatNr = int.Parse(Console.ReadLine());
             Console.WriteLine("Beskrivning: ");
             var description = Console.ReadLine();
